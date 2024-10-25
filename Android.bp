@@ -1,0 +1,7 @@
+cc_prebuilt_binary {
+    name: "intel_clc",
+    srcs: ["intel_clc"],
+
+    device_supported: false,
+    host_supported: true,
+}
